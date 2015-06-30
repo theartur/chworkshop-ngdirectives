@@ -1,0 +1,13 @@
+<ion-view view-title="My Tasks">
+	<ion-content class="padding">
+		<div class="item-input">
+			<label class="item-input-wrapper">
+				<input type="text" placeholder="Add task here" ng-model="data.inputTask">
+			</label>
+			<button class="button button-small" ng-click="addTask()">
+				Add
+			</button>
+		</div>
+		<task-list list="taskList"></task-list>
+	</ion-content>
+</ion-view>
